@@ -1,16 +1,16 @@
 .footer {
 	background-color: $color-secondary;
 	grid-column: full-start / full-end;
-
 	padding: 8rem;
 
 	.nav {
 		list-style: none;
 
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 		grid-gap: 2rem;
 		align-items: center;
+
 
 		&__items {
 
@@ -26,6 +26,9 @@
 			text-align: center;
 			padding: 1.5rem;
 			display: block;
+			line-height: 1.5;
+
+			background-color: (#fff, .05);
 			transition: all .2s;
 		}
 
